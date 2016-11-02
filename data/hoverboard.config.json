@@ -1,4 +1,11 @@
 {
+  "firebase": {
+    "name": "hoverboard-dev",
+    "domain": "gdg-sudbury-devfest.firebaseapp.com",
+    "database": "https://gdg-sudbury-devfest.firebaseio.com",
+    "api": "AIzaSyB9sskCdRaAWf4SxJIep0ma_g2xpy_G4EU",
+    "userSessionsPath": "/userSessions"
+  },
   "pages": {
     "home": {
       "headerSettings": {
@@ -62,7 +69,7 @@
       "permalink": "/team/"
     }
   ],
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://devfest.gdgsudbury.ca/",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
