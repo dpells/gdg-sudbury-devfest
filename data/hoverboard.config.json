@@ -1,7 +1,7 @@
 {
   "firebase": {
     "name": "hoverboard-dev",
-    "domain": "gdg-sudbury-devfest.firebaseapp.com",
+    "domain": "devfest.gdgsudbury.ca",
     "database": "https://gdg-sudbury-devfest.firebaseio.com",
     "api": "AIzaSyB9sskCdRaAWf4SxJIep0ma_g2xpy_G4EU",
     "userSessionsPath": "/userSessions"
