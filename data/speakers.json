@@ -22,37 +22,6 @@
         "socials": [
         ]
     },
-    "2": {
-        "id": 2,
-        "featured": true,
-        "name": "Steven Zarichney",
-        "title": "Developer",
-        "company": "Hard-Line",
-        "companyLogo": null,
-        "country": "Sudbury, Ontario",
-        "photoUrl": null,
-        "shortBio": "A passion-driven optimistic computer scientist with the goal of becoming an expert problem solver",
-        "bio": "",
-        "tags": [
-            "Angular",
-            "Web",
-            "ASP"
-        ],
-        "badges": [
-        ],
-        "socials": [
-            {
-                "icon": "linkedin",
-                "name": "LinkedIn",
-                "link": "https://ca.linkedin.com/in/steven-zarichney-5b87528a"
-            },
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/+StevenZarichney"
-            }
-        ]
-    },
     "3": {
         "id": 3,
         "featured": true,
@@ -196,6 +165,44 @@
                 "name": "Google+",
                 "link": "https://plus.google.com/+DanScottCAN"
             }
+        ]
+    },
+    "7": {
+        "id": 7,
+        "featured": true,
+        "name": "Megan",
+        "title": "Student",
+        "company": "Lo-Ellen Park S.S.",
+        "companyLogo": "/images/logos/loellen_knight.jpg",
+        "country": "Sudbury, Ontario",
+        "photoUrl": "/images/people/megan.jpg",
+        "shortBio": "Librarian. Developer. Linked Open Data nerd.",
+        "bio": "I am 12 years old and in grade 7 at Lo-Ellen Park S.S. I swim competitively for SLSC also I love to rock climb. My best friend is Amanda. I am very good at all things technology. My dad is a computer geek and my mom works for Bell. I love life 💜💙and dogs 🐶🐶🐾😀😘",
+        "tags": [
+            "Google Apps"
+        ],
+        "badges": [
+        ],
+        "socials": [
+        ]
+    },
+    "8": {
+        "id": 8,
+        "featured": true,
+        "name": "Rob Urwin",
+        "title": "Windows IT Special Ops",
+        "company": "",
+        "companyLogo": "",
+        "country": "Sudbury, Ontario",
+        "photoUrl": "/images/people/rob_urwin.jpg",
+        "shortBio": "Google/Android/Linux/Mac/iOS power user and a Nerdy Curmudgeon.",
+        "bio": "Windows IT Special Operations since the mid '90s. Google/Android/Linux/Mac/iOS power user and a Nerdy Curmudgeon. My daughter Megan is following in my footsteps to be a Technology Geek. :)",
+        "tags": [
+            "Google Apps"
+        ],
+        "badges": [
+        ],
+        "socials": [
         ]
     }
 }

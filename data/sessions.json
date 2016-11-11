@@ -27,7 +27,10 @@
         "id": 134,
         "title": "Lightning talks",
         "description": "Short (5 or 10 minute) energetic talks on cool development technology",
-        "image": "/images/backgrounds/coffee-break.jpg"
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "speakers": [
+            7, 8
+        ]
     },
     "133": {
         "id": 133,
@@ -81,14 +84,13 @@
     },
     "128": {
         "id": 128,
-        "title": "Backing up an AngularJS front end with an ASP.net backend",
-        "description": "ASP.net can provide a great backend for AngularJS; in this talk, learn how MVC without the V can give you an MVP outcome.",
+        "title": "Progressive Performance on Mobile Devices (video)",
+        "description": "Alex Russell shows us the important things to focus on in performance, and how to deliver great experiences on slow, inconsistent networks and low-power devices. From the Chrome Dev Summit 2016: https://goo.gl/V0pls0",
         "speakers": [
-            2
         ],
-        "complexity": "Beginner",
+        "complexity": "Intermediate",
         "tags": [
-            "Angular"
+            "Web"
         ]
     },
     "102": {

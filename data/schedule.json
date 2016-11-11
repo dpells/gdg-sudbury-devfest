@@ -20,7 +20,7 @@
         "startTime": "11:15",
         "endTime": "12:00",
         "sessions": [
-            [130]
+            [101]
         ]
     }, {
         "startTime": "12:00",
@@ -29,7 +29,13 @@
             [133]
         ]
     }, {
-        "startTime": "12:30",
+        "startTime": "12:15",
+        "endTime": "13:00",
+        "sessions": [
+            [128]
+        ]
+    }, {
+        "startTime": "13:00",
         "endTime": "13:30",
         "sessions": [
             [134]
@@ -42,15 +48,9 @@
         ]
     }, {
         "startTime": "14:30",
-        "endTime": "15:15",
-        "sessions": [
-            [128]
-        ]
-    }, {
-        "startTime": "15:15",
         "endTime": "15:30",
         "sessions": [
-            [101]
+            [130]
         ]
     }, {
         "startTime": "15:30",
