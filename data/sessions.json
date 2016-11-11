@@ -59,8 +59,8 @@
     },
     "130": {
         "id": 130,
-        "title": "Accelerated Mobile Pages Foundations",
-        "description": "In this codelab, you'll learn how to build Accelerated Mobile Pages -- or AMP for short. To achieve this you will implement a simple news article web page that conforms to the AMP specifications while incorporating several typical web features commonly used on mobile news sites.",
+        "title": "Accelerated Mobile Pages: towards a faster web (again)",
+        "description": "Learn what Accelerated Mobile Pages (AMP) are good for now, and where they're headed. In a hands-on codelab, you'll learn how AMP builds on the HTML you know to deliver a fast, rich news experience on mobile devices. Presentation: https://goo.gl/KwUfbz",
         "speakers": [
             6
         ],
