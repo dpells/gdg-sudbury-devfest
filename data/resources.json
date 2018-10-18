@@ -1,8 +1,8 @@
 {
-  "title": "GDG Sudbury DevFest 2017",
+  "title": "GDG Sudbury DevFest 2018",
   "description": "GDG Sudbury DevFest brings together local experts in Android, Web and Cloud technologies for a day of sessions, workshops and showcases.",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "November 4, 2017",
+  "dates": "November 3, 2018",
   "partnershipProposition": "https://drive.google.com/open?id=0BwsxDEszfX_nZ0JVQVNycTl2djQ",
   "share": "Share",
   "followOur": "Join our",
@@ -32,7 +32,7 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://devfest2017.gdgsudbury.ca/team/",
+          "url": "https://devfest2018.gdgsudbury.ca/team/",
           "newTab": true
         }
       ]
@@ -40,6 +40,11 @@
     {
       "title": "Explore Past DevFests",
       "links": [
+	{
+	  "name": "GDG DevFest Sudbury 2017",
+	  "url": "https://devfest2017.gdgsudbury.ca/",
+	  "newTab": true
+	},
         {
           "name": "GDG DevFest Sudbury 2016",
           "url": "https://devfest2016.gdgsudbury.ca/",
@@ -62,7 +67,7 @@
         },
         {
           "name": "Call for Papers",
-          "url": "https://goo.gl/forms/NILiummFs4fPYrbs2",
+          "url": "https://goo.gl/forms/nzdKXY2YfQ5ri99F3",
           "newTab": true
         }
       ]

@@ -20,8 +20,8 @@
     "title" : "Organizer"
   } ],
   "schedule" : [ {
-    "date" : "2017-11-04",
-    "dateReadable" : "November 4",
+    "date" : "2018-11-03",
+    "dateReadable" : "November 3",
     "timeslots" : [ {
       "endTime" : "10:00",
       "sessions" : [ {
@@ -191,9 +191,9 @@
         "link" : "https://twitter.com/dpells02",
         "name" : "Twitter"
       }, {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+DavidPellegrini02",
-        "name" : "Google+"
+        "icon" : "website",
+        "link" : "http://davidpellegrini.ca",
+        "name" : "Personal Website"
       } ],
       "title" : "Organizer"
     }, {

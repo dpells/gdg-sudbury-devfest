@@ -1,8 +1,8 @@
 {
   "basepath": "/",
-  "url": "https://devfest2017.gdgsudbury.ca/",
-  "startDate": "2017-11-04T09:00:00-04:00",
-  "endDate": "2017-11-04T19:00:00-04:00",
+  "url": "https://devfest2018.gdgsudbury.ca/",
+  "startDate": "2018-11-04T09:00:00-04:00",
+  "endDate": "2018-11-04T15:00:00-04:00",
   "analytics": {
     "prod": "UA-105822663-1",
     "dev": "UA-105822663-1"
@@ -10,12 +10,12 @@
   "environment": "dev",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyDBHF7VzODOgZ2SbpByWBvhdCTBc1_UEeY",
-    "authDomain": "gdg-sudbury-devfest-2017.firebaseapp.com",
-    "databaseURL": "https://gdg-sudbury-devfest-2017.firebaseio.com",
-    "projectId": "gdg-sudbury-devfest-2017",
-    "storageBucket": "gs://gdg-sudbury-devfest-2017.appspot.com/",
-    "messagingSenderId": "547471438549",
+    "apiKey": "AIzaSyAjpSJ85YDepE1BOhym9nn7S8SaqWB7jsM",
+    "authDomain": "gdg-sudbury-devfest-2018.firebaseapp.com",
+    "databaseURL": "https://gdg-sudbury-devfest-2018.firebaseio.com",
+    "projectId": "gdg-sudbury-devfest-2018",
+    "storageBucket": "gdg-sudbury-devfest-2018.appspot.com",
+    "messagingSenderId": "1004996085741",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
@@ -31,7 +31,7 @@
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
-  "hashtag": "DevFest17",
+  "hashtag": "DevFest18",
   "navigation": [
     {
       "route": "home",
@@ -152,7 +152,7 @@
       }
     ]
   },
-  "mailto": "denials@gmail.com",
+  "mailto": "da.pellegrini02@gmail.com",
   "signInProviders": {
     "providersData": [
       {
