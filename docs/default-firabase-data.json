@@ -107,67 +107,55 @@
       "title" : "Application State Management using the Redux Pattern"
     }
   },
-  "speakers" : [ null, {
-    "bio" : "Web Developer/Open Data Lead for Greater Sudbury; Director of Sudbury Code-Op; Instructor for Ladies Learning Code Sudbury",
-    "company" : "City of Greater Sudbury",
-    "country" : "Sudbury, Ontario",
-    "featured" : false,
-    "id" : 1,
-    "name" : "Renee Higgins",
-    "shortBio" : "Web Developer/Open Data Lead for Greater Sudbury",
-    "socials" : [ {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/HigginsRenee/",
-      "name" : "Twitter"
-    } ],
-    "tags" : [ "Design", "LLC" ],
-    "title" : "Web Developer / Open Data Lead"
-  }, {
-    "badges" : [ {
-      "description" : "Android Google Developer Expert",
-      "link" : "https://developers.google.com/experts/people/example.html",
-      "name" : "GDE"
-    } ],
-    "bio" : "I am currently a Laurentian student in Computer Science specializing in Game Design. I have three years of web development experience working as a web developer for Science North.",
-    "company" : "Science North",
-    "companyLogo" : "/images/logos/science_north.png",
+  "speakers" : [ null, 
+  {
+    "bio" : null,
+    "company" : null,
     "country" : "Sudbury, Ontario",
     "featured" : true,
-    "id" : 2,
-    "name" : "Kaitlynn Anderson-Butcher",
-    "photoUrl" : "/images/people/kaitlynn_anderson_butcher.jpg",
-    "shortBio" : "Professional Web Developer, Laurentian Student, and Game Designer all in one package!",
-    "socials" : [ null, {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/I_design_games",
-      "name" : "Twitter"
-    } ],
-    "tags" : [ "Web" ],
-    "title" : "Lead Developer"
+    "id" : 1,
+    "name" : "Kelsey Marshman",
+    "shortBio" : null,
+    "socials" : null,
+    "tags" : [ "Wellbeing" ],
+    "title" : "Registered Social Worker"
   }, {
-    "bio" : "A Project Manager in the Engineering Systems group at Vale, Trevor implements solutions that leverage technology to streamline Business Processes.",
-    "company" : "Vale",
+    "bio" : null,
+    "company" : "HapSys",
+    "companyLogo" : "/images/logos/hapsys.png",
+    "country" : "Sudbury, Ontario",
+    "featured" : false,
+    "id" : 2,
+    "name" : "Kacey Cayen",
+    "photoUrl" : null,
+    "shortBio" : null,
+    "tags" : [ "Haptics", "Immersion" ]
+  }, {
+    "bio" : "I write code and read novels.",
     "country" : "Sudbury, Ontario",
     "featured" : true,
     "id" : 3,
-    "name" : "Trevor Ross",
-    "photoUrl" : "/images/people/trevor_ross.jpg",
-    "shortBio" : "Hobby Full Stack Web Developer and Coding Nerd",
+    "name" : "Korey MacDougall",
+    "photoUrl" : null,
+    "shortBio" : "Hacker and cognitive scientist",
+    "socials" : null,
+    "tags" : [ "Web", "Linux" ]
+  }, { 
+    "bio" : null,
+    "company" : "REPerformance",
+    "country" : "Sudbury, Ontario",
+    "featured" : false,
+    "id" : 4,
+    "name" : "Andrew G.",
+    "photoUrl" : "/images/people/andrew_g.jpg",
+    "shortBio" : null,
     "socials" : [ {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/xtrevorross",
-      "name" : "Twitter"
-    }, {
       "icon" : "linkedin",
-      "link" : "https://www.linkedin.com/in/trevor-ross-b9849456/",
+      "link" : "https://www.linkedin.com/in/andrew-g-462b33163/",
       "name" : "LinkedIn"
-    }, {
-      "icon" : "website",
-      "link" : "http://tjrcadd.com",
-      "name" : "Blog"
     } ],
     "tags" : [ "Web" ],
-    "title" : "Project Manager"
+    "title" : "Web Developer"
   } ],
   "team" : [ {
     "members" : [ {
