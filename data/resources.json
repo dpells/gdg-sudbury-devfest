@@ -94,7 +94,7 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "10"
+        "number": "5"
       },
       "tracks": {
         "label": "Tracks",
@@ -123,8 +123,8 @@
     }
   },
   "galleryBlock": {
-    "title": "2016 highlights",
-    "description": "Last year's event was small but focused, and built momentum for this year.",
+    "title": "2017 highlights",
+    "description": "Last year's event sported a bigger venue with new speakers setting up for an exciting 2018.",
     "callToAction": {
       "label": "See all photos",
       "url": "https://goo.gl/photos/v2kzvDaabpQn6cLF7"

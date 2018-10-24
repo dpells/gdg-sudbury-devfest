@@ -100,12 +100,12 @@
     loadFirebaseModule()
       .then(() => {
         firebase.initializeApp({
-          apiKey: "AIzaSyAjpSJ85YDepE1BOhym9nn7S8SaqWB7jsM",
-          authDomain: "gdg-sudbury-devfesr-2018.firebaseapp.com",
-          databaseURL: "https://gdg-sudbury-devfest-2018.firebase.io.com",
-          projectId: "gdg-sudbury-devfest-2018",
-          storageBucket: "gdg-sudbury-devfest-2018.appspot",
-          messagingSenderId: "1004996085741"
+          apiKey: '{$ firebase.apiKey $},
+          authDomain: '{$ firebase.authDomain $}',
+          databaseURL: '{$ firebase.databaseURL $}',
+          projectId: '{$ firebase.projectId $}',
+          storageBucket: '{$ firebase.storageBucket $}',
+          messagingSenderId: '{$ firebase.messagingSenderId $}'
         });
       });
 
