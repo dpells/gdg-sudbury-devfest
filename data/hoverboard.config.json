@@ -102,7 +102,7 @@
   },
   "location": {
     "short": "Sudbury, Ontario",
-    "address": "Laurentian University, 935 Ramsey Lake Road, Sudbury, Ontario",
+    "address": "Cliff Fielding Research, Innovation and Engineering Building, Laurentian University, 935 Ramsey Lake Road, Sudbury, Ontario",
     "pointer": {
       "latitude": 46.4667745,
       "longitude": -80.9764219,
@@ -112,7 +112,7 @@
       "latitude": 46.4593228,
       "longitude": -80.9807939
     },
-    "description": "Laurentian University offers excellent facilities for learning and socializing"
+    "description": "The Jim Fielding Innovation and Commercialization Space at Laurentian University encourages our community to foster their innovative ideas, develop new products and deliver them to the marketplace."
   },
   "mediaQueries": {
     "xs": {

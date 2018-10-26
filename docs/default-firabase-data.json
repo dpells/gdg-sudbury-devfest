@@ -29,29 +29,47 @@
       } ],
       "startTime" : "09:00"
     }, {
-      "endTime" : "11:00",
+      "endTime" : "9:45",
       "sessions" : [ {
         "items" : [ 101 ]
       } ],
-      "startTime" : "10:00"
+      "startTime" : "9:15"
     }, {
-      "endTime" : "12:00",
+      "endTime" : "10:35",
       "sessions" : [ {
         "items" : [ 102 ]
       } ],
-      "startTime" : "11:00"
+      "startTime" : "9:50"
+    }, {
+      "endTime" : "12:15",
+      "sessions" : [ {
+        "items" : [ 105 ]
+      } ],
+      "startTime" : "10:45"
     }, {
       "endTime" : "13:00",
       "sessions" : [ {
         "items" : [ 103 ]
       } ],
-      "startTime" : "12:00"
+      "startTime" : "12:15"
     }, {
-      "endTime" : "14:00",
+      "endTime" : "13:45",
       "sessions" : [ {
         "items" : [ 104 ]
       } ],
       "startTime" : "13:00"
+    }, {
+      "endTime" : "14:00",
+      "sessions" : [ {
+        "items" : [ 106 ]
+      } ],
+      "startTime" : "13:50"
+    }, {
+      "endTime" : "15:00",
+      "sessions" : [ {
+        "items" : [ 107 ]
+      } ],
+      "startTime" : "14:05"
     } ],
     "tracks" : [ {
       "title" : "Expo hall"
@@ -68,26 +86,26 @@
       "id" : 100,
       "language" : "English",
       "presentation" : "https://google.com",
-      "tags" : [ "Design" ],
-      "title" : "Design is awesome"
+      "tags" : [ "Social" ],
+      "title" : "Social"
     },
     "101" : {
       "complexity" : "Beginner",
-      "description" : "Welcome to Bootstrap v4.0\n\nWhat is Bootstrap? \"Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.\"\n\nWhat this Code Lab will do:\nThis will be an introduction to the toolkit. We will be building a pretty basic webpage to understand the architecture\n\nThings you will need:\n- A laptop\n- The ability to connect to the internet to download files\n\nOptional:\n- A web server that you can connect to and are familiar with",
+      "description" : "Join us for a discussion and demonstration of apps and websites available to promote wellbeing",
       "id" : 101,
       "language" : "English",
-      "speakers" : [ 2 ],
-      "tags" : [ "Web" ],
-      "title" : "Intro to Bootstrap"
+      "speakers" : [ 1 ],
+      "tags" : [ "Wellbeing" ],
+      "title" : "Digital Wellbeing"
     },
     "102" : {
       "complexity" : "Intermediate",
-      "description" : "Live coding demonstration showing how to build a similar web application using the Angular framework. Will include using Angular Material for UI components and Firebase or a public API to provide data source to demonstrate incorporating data. May include overview of hosting application (Github and Firebase) and implementing PWA components for the application.",
+      "description" : "Haptics, tactile sensation, sex toys, immersion.",
       "id" : 102,
       "language" : "English",
-      "speakers" : [ 3 ],
-      "tags" : [ "Web" ],
-      "title" : "Building Web Applications with Angular (4+)"
+      "speakers" : [ 2 ],
+      "tags" : [ "Haptics", "Immersion" ],
+      "title" : "Building a better haptic interface."
     },
     "103" : {
       "complexity" : "Beginner",
@@ -99,36 +117,64 @@
     },
     "104" : {
       "complexity" : "Intermediate",
-      "description" : "Overview of the Redux pattern and how it can be used to manage state in applications. Examples will show how to use libraries such as rxjs and ngRx to implement the Redux methodology in modern javascript applications.",
+      "description" : "We will cover a number of tips for improving your Linux experience, by configuring and customizing the operating system and various key applications (bash/zsh, tmux, xterm, ranger file manager), and making these tweaks portable across machines.",
       "id" : 104,
       "language" : "English",
       "speakers" : [ 3 ],
-      "tags" : [ "Web", "Lightning talk" ],
-      "title" : "Application State Management using the Redux Pattern"
+      "tags" : [ "Linux" ],
+      "title" : "Customizing Linux: Desktop environments, window managers, shells, and scripts"
+    },
+    "105" : {
+      "complexity" : "Intermediate",
+      "description" : "We will explore how to get started developing web applications using Ruby on Rails.  We will walk through the installation of the necessary tools, then build and deploy a simple app on the web.",
+      "id" : 105,
+      "language" : "English",
+      "speakers" : [ 3 ],
+      "tags" : [ "Web", "Codelab" ],
+      "title" : "Getting started with Ruby on Rails"
+    },
+    "106" : {
+      "complexity" : "Beginner",
+      "description" : "What is a Microcontroller? What can it do? Why should I care? All this will be explained and more as we take a quick trip in the wonderful world of Microcontrollers.",
+      "id" : 106,
+      "language" : "English",
+      "speakers" : [ 5 ],
+      "tags" : [ "Microcontroller", "Lightning talk" ],
+      "title" : "Micro-controllers 101"
+    },
+    "107" : {
+      "complexity" : "Beginner",
+      "description" : "I'm going to be teaching a little class about automated testing in JavaScript for College Boreal on the 19th of Nov. and wanted to demonstrate it before it to have practice with a group of people, also hopefully get some feedback.\nThe example page will already be done and it'll be just a \"git pull\" away, the page will be a library of animals that has some CRUD functionality.\nThe work is to build a client-side filter system for the data based on their weight, species and diet properties. We'll be using Jasmine to test these filters and other functionally need applied.",
+      "id" : 107,
+      "language" : "English",
+      "speakers" : [ 4 ],
+      "tags" : [ "Web", "Lightning talk", "Codelab" ],
+      "title" : "Automated Testing w/Jasmine"
     }
   },
   "speakers" : [ null, 
   {
-    "bio" : null,
+    "bio" : "Advocate in reducing mental health stigma while promoting resilliency. My self-care routine consists of tea, bubble baths, and unicorns.",
     "company" : null,
     "country" : "Sudbury, Ontario",
     "featured" : true,
     "id" : 1,
     "name" : "Kelsey Marshman",
-    "shortBio" : null,
+    "photoUrl" : "images/people/kelsey_marshman.jpg",
+    "shortBio" : "Registered Social Worker. Master's degree in social work.",
     "socials" : null,
     "tags" : [ "Wellbeing" ],
     "title" : "Registered Social Worker"
   }, {
-    "bio" : null,
+    "bio" : "My undergrad is in psychology, neuroscience and behaviour, my Master's is in computational sciences and I have started a company, HapSys to commercialize my research in haptics",
     "company" : "HapSys",
     "companyLogo" : "/images/logos/hapsys.png",
     "country" : "Sudbury, Ontario",
     "featured" : false,
     "id" : 2,
     "name" : "Kacey Cayen",
-    "photoUrl" : null,
-    "shortBio" : null,
+    "photoUrl" : "/images/people/kacey_cayen.jpg",
+    "shortBio" : "Master's student and entrepreneur",
     "tags" : [ "Haptics", "Immersion" ]
   }, {
     "bio" : "I write code and read novels.",
@@ -156,11 +202,27 @@
     } ],
     "tags" : [ "Web" ],
     "title" : "Web Developer"
+  }, { 
+    "bio" : "I am a Master's student at Laurentian with a passion for all things involving computers. My area of study is human computer interaction and videogames.",
+    "company" : "Laurentian University",
+    "country" : "Sudbury, Ontario",
+    "featured" : false,
+    "id" : 5,
+    "name" : "Stefan Klaassen",
+    "photoUrl" : "/images/people/stefan_klaassen.jpg",
+    "shortBio" : "I am a Master's student at Laurentian with a passion for all things involving computers. My area of study is human computer interaction and videogames.",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/stefanklaassen/",
+      "name" : "LinkedIn"
+    } ],
+    "tags" : [ "Microcontoller" ],
+    "title" : "Student"
   } ],
   "team" : [ {
     "members" : [ {
       "name" : "Em Bamsey",
-      "photoUrl" : "/images/people/embamsey.jpg",
+      "photoUrl" : "/images/people/em_bamsey.jpg",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/embamsey",
@@ -173,7 +235,7 @@
       "title" : "Organizer"
     }, {
       "name" : "David Pellegrini",
-      "photoUrl" : "/images/people/dpellegrini.jpg",
+      "photoUrl" : "/images/people/david_pellegrini.jpg",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/dpells02",
