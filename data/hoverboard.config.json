@@ -1,8 +1,8 @@
 {
   "basepath": "/",
-  "url": "https://devfest2018.gdgsudbury.ca/",
-  "startDate": "2018-11-04T09:00:00-04:00",
-  "endDate": "2018-11-04T15:00:00-04:00",
+  "url": "https://devfest2019.gdgsudbury.ca/",
+  "startDate": "2019-09-21T10:00:00-04:00",
+  "endDate": "2019-09-22T16:00:00-04:00",
   "analytics": {
     "prod": "UA-105822663-1",
     "dev": "UA-105822663-1"
@@ -10,17 +10,17 @@
   "environment": "dev",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyAjpSJ85YDepE1BOhym9nn7S8SaqWB7jsM",
-    "authDomain": "gdg-sudbury-devfest-2018.firebaseapp.com",
-    "databaseURL": "https://gdg-sudbury-devfest-2018.firebaseio.com",
-    "projectId": "gdg-sudbury-devfest-2018",
-    "storageBucket": "gdg-sudbury-devfest-2018.appspot.com",
-    "messagingSenderId": "1004996085741",
+    "apiKey": "",
+    "authDomain": "gdg-sudbury-devfest-2019.firebaseapp.com",
+    "databaseURL": "https://gdg-sudbury-devfest-2019.firebaseio.com",
+    "projectId": "gdg-sudbury-devfest-2019",
+    "storageBucket": "gdg-sudbury-devfest-2019.appspot.com",
+    "messagingSenderId": "",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
   },
-  "googleMapApiKey": "AIzaSyA28OjRCLC0h6sLsHREiqQebV3DXq_Vi0A",
+  "googleMapApiKey": "",
   "organizer": {
     "name": "GDG Sudbury",
     "twitter": "gdgsudbury",
@@ -31,7 +31,7 @@
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
-  "hashtag": "DevFest18",
+  "hashtag": "DevFest19",
   "navigation": [
     {
       "route": "home",
@@ -138,10 +138,6 @@
       }
     ],
     "share": [
-      {
-        "name": "gplus",
-        "url": "https://plus.google.com/share?url="
-      },
       {
         "name": "facebook",
         "url": "https://www.facebook.com/sharer.php?u="
