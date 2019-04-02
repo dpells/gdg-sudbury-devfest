@@ -21,7 +21,7 @@
   } ],
   "schedule" : [ {
     "date" : "2018-11-03",
-    "dateReadable" : "November 3",
+    "dateReadable" : "September 21",
     "timeslots" : [ {
       "endTime" : "10:00",
       "sessions" : [ {
@@ -214,11 +214,11 @@
   "tickets" : {
     "elements" : [ {
       "currency" : "$",
-      "ends" : "Nov 1",
+      "ends" : "September 14",
       "name" : "Free",
       "price" : 0.0,
       "soldOut" : false,
-      "starts" : "Sep 1"
+      "starts" : "August 1"
     } ],
     "url" : "https://www.meetup.com/GDG-Sudbury/events/242553086"
   }
