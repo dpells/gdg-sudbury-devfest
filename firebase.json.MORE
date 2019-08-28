@@ -15,7 +15,9 @@
 	  "bower.json",
 	  "database.rules.json",
       "firebase.json",
-	  "README.md"
+	  "README.md",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }

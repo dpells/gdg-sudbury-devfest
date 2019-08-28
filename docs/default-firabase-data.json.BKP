@@ -23,19 +23,19 @@
     "date" : "2019-11-07",
     "dateReadable" : "September 7",
     "timeslots" : [ {
+    "startTime" : "09:00",
       "endTime" : "10:00",
       "sessions" : [ {
         "items" : [ 100 ]
-      } ],
-      "startTime" : "09:00"
+      } ]
     } ],
     "tracks" : [ {
       "title" : "Main room"
     }, {
       "title" : "Breakout A"
-    }, {
+    },{
       "title" : "Breakout B"
-    }, {
+    },{
       "title" : "Breakout C"
     } ]
   } ],
@@ -45,21 +45,21 @@
       "description" : "Opening remarks",
       "id" : 100,
       "language" : "English",
-      "presentation" : "https://google.com",
       "speakers" : [ 1 ],
+      "presentation" : "https://google.com",
       "tags" : [ "Keynote" ],
       "title" : "Welcome to #DevFest19!"
     } ]
   } ],
   "speakers" : [ null, {
-    "bio" : "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
+    "name" : "David Pellegrini",
+    "id" : 1,
+    "shortBio" : "Tech enthusiast/ educator",
+    "bio" : "Web Developer/Open Data Lead for Greater Sudbury; Director of Sudbury Code-Op; Instructor for Ladies Learning Code Sudbury",
+    "photoUrl" : "/images/people/dpellegrini.jpg",
     "company" : "Canada Learning Code",
     "country" : "Sudbury, Ontario",
     "featured" : false,
-    "id" : 1,
-    "name" : "David Pellegrini",
-    "photoUrl" : "/images/people/dpellegrini.jpg",
-    "shortBio" : "Tech enthusiast/ educator",
     "socials" : [ {
       "icon" : "twitter",
       "link" : "https://twitter.com/dpells02",
@@ -70,24 +70,12 @@
       "name" : "Personal Website"
     } ],
     "tags" : [ "Mobile", "CLC" ],
-    "title" : "Chapter Lead"
-  },
-  null, {
-    "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
-    "company" : "Hardline",
-    "country" : "Sudbury, Ontario",
-    "featured" : true,
-    "id" : 2,
-    "name" : "Emily Bamsey",
-    "photoUrl" : "/images/people/embamsey.jpg",
-    "shortBio" : "",
-    "socials" : [ {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/embamsey",
-      "name" : "Twitter"
-    }],
-    "tags" : [ "ML"],
-    "title" : "Developer"
+    "title" : "Communications Lead, Sudbury CodeMobile",
+    "badges" : [ {
+      "description" : "Android Google Developer Expert",
+      "link" : "https://developers.google.com/experts/people/example.html",
+      "name" : "GDE"
+     } ]
   } ],
   "team" : [ {
     "members" : [ {
@@ -97,6 +85,10 @@
         "icon" : "twitter",
         "link" : "https://twitter.com/embamsey",
         "name" : "Twitter"
+      }, {
+        "icon" : "gplus",
+        "link" : "https://plus.google.com/+EmBamsey",
+        "name" : "Google+"
       } ],
       "title" : "Organizer"
     }, {
@@ -130,11 +122,11 @@
   "tickets" : {
     "elements" : [ {
       "currency" : "$",
+      "starts" : "August 10",
       "ends" : "September 4",
       "name" : "Free",
       "price" : 0.0,
-      "soldOut" : false,
-      "starts" : "August 10"
+      "soldOut" : false
     } ],
     "url" : "https://www.meetup.com/GDG-Sudbury/events/260203093"
   }

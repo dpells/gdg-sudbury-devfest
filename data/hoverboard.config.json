@@ -1,8 +1,8 @@
 {
   "basepath": "/",
   "url": "https://devfest2019.gdgsudbury.ca/",
-  "startDate": "2019-09-21T10:00:00-04:00",
-  "endDate": "2019-09-22T16:00:00-04:00",
+  "startDate": "2019-09-07T10:00:00-04:00",
+  "endDate": "2019-09-07T16:00:00-04:00",
   "analytics": {
     "prod": "UA-105822663-1",
     "dev": "UA-105822663-1"
@@ -10,17 +10,17 @@
   "environment": "dev",
   "prefix": "/",
   "firebase": {
-    "apiKey": "",
+    "apiKey": "AIzaSyDwP-jrbfllqIfKyeEvRlAqg_7sW_Oj6BA",
     "authDomain": "gdg-sudbury-devfest-2019.firebaseapp.com",
     "databaseURL": "https://gdg-sudbury-devfest-2019.firebaseio.com",
     "projectId": "gdg-sudbury-devfest-2019",
     "storageBucket": "gdg-sudbury-devfest-2019.appspot.com",
-    "messagingSenderId": "",
+    "messagingSenderId": "88884131205",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
   },
-  "googleMapApiKey": "",
+  "googleMapApiKey": "AIzaSyA28OjRCLC0h6sLsHREiqQebV3DXq_Vi0A",
   "organizer": {
     "name": "GDG Sudbury",
     "twitter": "gdgsudbury",
@@ -148,7 +148,7 @@
       }
     ]
   },
-  "mailto": "da.pellegrini02@gmail.com",
+  "mailto": "info@gdgsudbury.ca",
   "signInProviders": {
     "providersData": [
       {

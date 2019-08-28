@@ -2,10 +2,10 @@
   "title": "GDG Sudbury DevFest 2019",
   "description": "GDG Sudbury DevFest brings together local experts in Android, Web and Cloud technologies for a day of sessions, workshops and showcases.",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 21, 2019, September 22 2019",
+  "dates": "September 7, 2019",
   "partnershipProposition": "https://drive.google.com/open?id=0BwsxDEszfX_nZ0JVQVNycTl2djQ",
   "share": "Share",
-  "followOur": "Join our",
+  "followOur": "Join our ",
   "followUs": "Follow us",
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
@@ -43,7 +43,7 @@
 		 {
 		  "name": "GDG DevFest Sudbury 2018",
 		  "url": "https://devfest2018.gdgsudbury.ca/",
-		  "newTab": true	
+		  "newTab": true
 		},
 		{
 		  "name": "GDG DevFest Sudbury 2017",
@@ -67,12 +67,12 @@
       "links": [
         {
           "name": "Partnership Proposition",
-          "url": "https://drive.google.com/open?id=0BwsxDEszfX_nZ0JVQVNycTl2djQ",
+          "url": "https://drive.google.com/open?id=1bP539aFDb49TDCeUs6gzsrBfImoV_Gqt",
           "newTab": true
         },
         {
           "name": "Call for Papers",
-          "url": "https://goo.gl/forms/nzdKXY2YfQ5ri99F3",
+          "url": "https://forms.gle/QtmY9W8QseUswMe66",
           "newTab": true
         }
       ]
@@ -91,11 +91,11 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "75"
+        "number": "25"
       },
       "days": {
         "label": "Day",
-        "number": "2"
+        "number": "1"
       },
       "sessions": {
         "label": "Sessions",
@@ -103,7 +103,7 @@
       },
       "tracks": {
         "label": "Tracks",
-        "number": 3
+        "number": 1
       }
     }
   },
@@ -171,7 +171,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "<a href='http://gdgsudbury.ca' target='_blank'>GDG Sudbury</a> with support of GDGs from across Canada, GDG Sudbury is a proud DevFest organizer",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
