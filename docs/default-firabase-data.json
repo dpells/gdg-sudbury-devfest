@@ -23,11 +23,35 @@
     "date" : "2019-11-07",
     "dateReadable" : "September 7",
     "timeslots" : [ {
-      "endTime" : "10:00",
+      "endTime" : "10:15",
       "sessions" : [ {
         "items" : [ 100 ]
       } ],
-      "startTime" : "09:00"
+      "startTime" : "10:00"
+    }, { 
+      "endTime" : "10:55",
+      "sessions" : [ {
+        "items" : [ 101 ]
+      } ],
+      "startTime" : "10:15"
+    }, {
+      "endTime" : "11:55",
+      "sessions" : [ {
+        "items" : [ 102 ]
+      } ],
+      "startTime" : "11:00"
+    }, {
+      "endTime" : "12:55",
+      "sessions" : [ {
+        "items" : [ 103 ]
+      } ],
+      "startTime" : "12:00"
+    }, {
+      "endTime" : "15:55",
+      "sessions" : [ {
+        "items" : [ 105 ]
+      } ],
+      "startTime" : "14:00"
     } ],
     "tracks" : [ {
       "title" : "Main room"
@@ -39,18 +63,58 @@
       "title" : "Breakout C"
     } ]
   } ],
-  "sessions" : [ {
-    "100" : [ {
+  "sessions" :  {
+    "100" : {
       "complexity" : "Keynote",
       "description" : "Opening remarks",
       "id" : 100,
       "language" : "English",
       "presentation" : "https://google.com",
-      "speakers" : [ 1 ],
+      "speakers" : [ 1, 3 ],
       "tags" : [ "Keynote" ],
       "title" : "Welcome to #DevFest19!"
-    } ]
-  } ],
+    } ,
+    "101" : {
+      "complexity" : "Keynote",
+      "description" : "A discussion and demonstration of apps and websites available to promote diversity and inclusion, and wellbeing.",
+      "id" : 101,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : [ 5 ],
+      "tags" : [ "Keynote", "D&I", "Wellbeing" ],
+      "title" : "Diversity, Inclusion, and Wellbeing"
+    },
+    "102" : { 
+      "complexity" : "Beginner",
+      "description" : "A quick introduction to Flutter, covering one way of learning what you need to know to get starte",
+      "id" : 102,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : [ 1 ],
+      "tags" : [ "Mobile", "Flutter" ],
+      "title" : "Flutter 101"
+    },
+    "103" : { 
+      "complexity" : "Lunch",
+      "description" : "Join us for a complimentary lunch!",
+      "id" : 103,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : null,
+      "tags" : [ "Lunch" ],
+      "title" : "Lunch"
+    },
+    "105" : {
+      "complexity" : "Intermediate",
+      "description" : "We're creating an open source GDG Sudbury website! Use your Git experience to help us build on the Aura template designed by GDG Jalandhar",
+      "id" : 105,
+      "language" : "English",
+      "presentation" : "https://github.com/gdg-x/aura",
+      "speakers" : null,
+      "tags" : [ "Web" ],
+      "title" : "GDG Sudbury Website"
+    }
+  },
   "speakers" : [ null, {
     "bio" : "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
     "company" : "Canada Learning Code",
@@ -71,13 +135,12 @@
     } ],
     "tags" : [ "Mobile", "CLC" ],
     "title" : "Chapter Lead"
-  },
-  null, {
+  }, null, {
     "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
     "company" : "Hardline",
     "country" : "Sudbury, Ontario",
     "featured" : true,
-    "id" : 2,
+    "id" : 3,
     "name" : "Emily Bamsey",
     "photoUrl" : "/images/people/embamsey.jpg",
     "shortBio" : "",
@@ -85,9 +148,20 @@
       "icon" : "twitter",
       "link" : "https://twitter.com/embamsey",
       "name" : "Twitter"
-    }],
-    "tags" : [ "ML"],
+    } ],
+    "tags" : [ "ML" ],
     "title" : "Developer"
+  }, null, {
+    "bio" : "Advocate in reducing mental health stigma while promoting resiliency. My self-care routine consists of tea, bubble baths, and unicorns.",
+    "company" : "Laurentian University",
+    "country" : "Sudbury, Ontario",
+    "featured" : true,
+    "id" : 5,
+    "name" : "Kelsey Marshman",
+    "photoUrl" : "/images/people/kelsey_marshman.jpg",
+    "shortBio" : "Registered Social Worker.",
+    "tags" : [ "D&I", "Mental Wellness" ],
+    "title" : "Counsellor"
   } ],
   "team" : [ {
     "members" : [ {
