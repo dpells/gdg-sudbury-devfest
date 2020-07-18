@@ -1,6 +1,6 @@
 {
   "basepath": "/",
-  "url": "https://devfest2019.gdgsudbury.ca/",
+  "url": "https://devfest2020.gdgsudbury.ca/",
   "startDate": "2019-09-07T10:00:00-04:00",
   "endDate": "2019-09-07T16:00:00-04:00",
   "analytics": {
@@ -31,7 +31,7 @@
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
-  "hashtag": "DevFest19",
+  "hashtag": "DevFest",
   "navigation": [
     {
       "route": "home",
@@ -101,18 +101,8 @@
     }
   },
   "location": {
-    "short": "Sudbury, Ontario",
-    "address": "Laurentian University, 935 Ramsey Lake Road, Sudbury, Ontario",
-    "pointer": {
-      "latitude": 46.4667745,
-      "longitude": -80.9764219,
-      "zoom": 14
-    },
-    "mapCenter": {
-      "latitude": 46.4593228,
-      "longitude": -80.9807939
-    },
-    "description": "Laurentian University offers excellent facilities for learning and socializing"
+    "short": "Virtual",
+    "description": "We'll be completely virtual this year! Please RSVP on Meetup for more information"
   },
   "mediaQueries": {
     "xs": {
