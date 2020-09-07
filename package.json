@@ -42,7 +42,7 @@
     "@radi-cho/star-rating": "github:abraham/star-rating#polymer-3",
     "@webcomponents/webcomponentsjs": "^2.4.1",
     "clamp-js-main": "github:abraham/clamp-js-main#export",
-    "firebase": "^7.9.1",
+    "firebase": "^7.19.1",
     "plastic-image": "^3.0.2",
     "polymer-redux": "^2.0.0-beta.2",
     "redux": "^4.0.5",
@@ -52,7 +52,7 @@
     "@babel/core": "^7.8.4",
     "@babel/node": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
-    "@firebase/testing": "^0.16.11",
+    "@firebase/testing": "^0.20.11",
     "@open-wc/building-rollup": "^0.21.1",
     "concurrently": "^5.1.0",
     "cross-env": "^7.0.0",
@@ -73,7 +73,7 @@
     "rollup-plugin-index-html": "^1.9.3",
     "rollup-plugin-re": "^1.0.7",
     "rollup-plugin-workbox": "^5.0.1",
-    "serve": "^11.3.0"
+    "serve": "^11.3.2"
   },
   "engines": {
     "node": "10"
