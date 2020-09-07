@@ -53,7 +53,7 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://devfest2019.gdgsudbury.ca/team/",
+          "url": "https://devfest2020.gdgsudbury.ca/team/",
           "newTab": true
         }
       ]
@@ -61,16 +61,21 @@
     {
       "title": "Explore Past DevFests",
       "links": [
-		 {
-		  "name": "GDG DevFest Sudbury 2018",
-		  "url": "https://devfest2018.gdgsudbury.ca/",
-		  "newTab": true
-		},
-		{
-		  "name": "GDG DevFest Sudbury 2017",
-		  "url": "https://devfest2017.gdgsudbury.ca/",
-		  "newTab": true
-		},
+        {
+          "name": "GDG DevFest Sudbury 2019",
+          "url": "https://devfest2019.gdgsudbury.ca/",
+          "newTab": true
+        },
+        {
+          "name": "GDG DevFest Sudbury 2018",
+          "url": "https://devfest2018.gdgsudbury.ca/",
+          "newTab": true
+        },
+        {
+          "name": "GDG DevFest Sudbury 2017",
+          "url": "https://devfest2017.gdgsudbury.ca/",
+          "newTab": true
+        },
         {
           "name": "GDG DevFest Sudbury 2016",
           "url": "https://devfest2016.gdgsudbury.ca/",
