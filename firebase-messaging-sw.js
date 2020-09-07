@@ -1,16 +1,22 @@
-importScripts('bower_components/firebase/firebase-app.js');
-importScripts('bower_components/firebase/firebase-messaging.js');
+importScripts('./node_modules/firebase/firebase-app.js');
+importScripts('./node_modules/firebase/firebase-messaging.js');
 
 firebase.initializeApp({
-  messagingSenderId: '{$ firebase.messagingSenderId $}'
+  apiKey: '{$ firebase.apiKey $}',
+  appId: '{$ firebase.appId $}',
+  authDomain: '{$ firebase.authDomain $}',
+  databaseURL: '{$ firebase.databaseURL $}',
+  messagingSenderId: '{$ firebase.messagingSenderId $}',
+  projectId: '{$ firebase.projectId $}',
+  storageBucket: '{$ firebase.storageBucket $}',
 });
 const messaging = firebase.messaging();
 
 messaging.setBackgroundMessageHandler(({ data }) => {
   const notification = Object.assign({}, data, {
     data: {
-      click_action: data.click_action
-    }
+      click_action: data.click_action,
+    },
   });
   return self.registration.showNotification(notification.title, notification);
 });
