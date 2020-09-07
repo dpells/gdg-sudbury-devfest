@@ -125,7 +125,8 @@
       "latitude": 46.4593228,
       "longitude": -80.9807939
     },
-    "description": "Laurentian University offers excellent facilities for learning and socializing"
+    "short": "Virtual",
+    "description": "We'll be completely virtual this year! Please RSVP on Meetup for more information"
   },
   "mediaQueries": {
     "xs": {
