@@ -84,15 +84,6 @@ class MapBlock extends ReduxMixin(PolymerElement) {
           <h2>{$ mapBlock.title $}</h2>
           <p>{$ location.description $}</p>
         </div>
-        <div class="bottom-info" layout horizontal justified center>
-          <span class="address">{$ location.address $}</span>
-          <a
-            href="https://www.google.com/maps/dir/?api=1&amp;destination={$ location.address $}"
-            target="_blank"
-            rel="noopener noreferrer">
-            <paper-icon-button class="directions" icon="hoverboard:directions"></paper-icon-button>
-          </a>
-        </div>
       </div>
     </div>
 `;
