@@ -1,0 +1,215 @@
+{
+  "partners" : [ {
+    "logos" : [ {
+      "logoUrl" : "../images/logos/google.svg",
+      "name" : "Google",
+      "url" : "https://www.google.ca/about/"
+    }, {
+      "logoUrl" : "../images/logos/gdg-x.svg",
+      "name" : "GDG[x]",
+      "url" : "https://github.com/gdg-x"
+    } ],
+    "title" : "General Partner"
+  }, {
+    "logos" : [ {
+      "logoUrl" : "../images/logos/gdg-sudbury.svg",
+      "name" : "GDG Sudbury",
+      "url" : "https://meetup.com/GDG-Sudbury",
+      "width" : 170
+    } ],
+    "title" : "Organizer"
+  } ],
+  "schedule" : [ {
+    "date" : "2019-11-07",
+    "dateReadable" : "September 7",
+    "timeslots" : [ {
+      "endTime" : "10:15",
+      "sessions" : [ {
+        "items" : [ 100 ]
+      } ],
+      "startTime" : "10:00"
+    }, { 
+      "endTime" : "10:55",
+      "sessions" : [ {
+        "items" : [ 101 ]
+      } ],
+      "startTime" : "10:15"
+    }, {
+      "endTime" : "11:55",
+      "sessions" : [ {
+        "items" : [ 102 ]
+      } ],
+      "startTime" : "11:00"
+    }, {
+      "endTime" : "12:55",
+      "sessions" : [ {
+        "items" : [ 103 ]
+      } ],
+      "startTime" : "12:00"
+    }, {
+      "endTime" : "15:55",
+      "sessions" : [ {
+        "items" : [ 105 ]
+      } ],
+      "startTime" : "14:00"
+    } ],
+    "tracks" : [ {
+      "title" : "Main room"
+    }, {
+      "title" : "Breakout A"
+    }, {
+      "title" : "Breakout B"
+    }, {
+      "title" : "Breakout C"
+    } ]
+  } ],
+  "sessions" :  {
+    "100" : {
+      "complexity" : "Keynote",
+      "description" : "Opening remarks",
+      "id" : 100,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : [ 1, 3 ],
+      "tags" : [ "Keynote" ],
+      "title" : "Welcome to #DevFest19!"
+    } ,
+    "101" : {
+      "complexity" : "Keynote",
+      "description" : "A discussion and demonstration of apps and websites available to promote diversity and inclusion, and wellbeing.",
+      "id" : 101,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : [ 5 ],
+      "tags" : [ "Keynote", "D&I", "Wellbeing" ],
+      "title" : "Diversity, Inclusion, and Wellbeing"
+    },
+    "102" : { 
+      "complexity" : "Beginner",
+      "description" : "A quick introduction to Flutter, covering one way of learning what you need to know to get starte",
+      "id" : 102,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : [ 1 ],
+      "tags" : [ "Mobile", "Flutter" ],
+      "title" : "Flutter 101"
+    },
+    "103" : { 
+      "complexity" : "Lunch",
+      "description" : "Join us for a complimentary lunch!",
+      "id" : 103,
+      "language" : "English",
+      "presentation" : "https://google.com",
+      "speakers" : null,
+      "tags" : [ "Lunch" ],
+      "title" : "Lunch"
+    },
+    "105" : {
+      "complexity" : "Intermediate",
+      "description" : "We're creating an open source GDG Sudbury website! Use your Git experience to help us build on the Aura template designed by GDG Jalandhar",
+      "id" : 105,
+      "language" : "English",
+      "presentation" : "https://github.com/gdg-x/aura",
+      "speakers" : null,
+      "tags" : [ "Web" ],
+      "title" : "GDG Sudbury Website"
+    }
+  },
+  "speakers" : [ null, {
+    "bio" : "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
+    "company" : "Canada Learning Code",
+    "country" : "Sudbury, Ontario",
+    "featured" : false,
+    "id" : 1,
+    "name" : "David Pellegrini",
+    "photoUrl" : "/images/people/dpellegrini.jpg",
+    "shortBio" : "Tech enthusiast/ educator",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/dpells02",
+      "name" : "Twitter"
+    }, {
+      "icon" : "website",
+      "link" : "http://davidpellegrini.ca",
+      "name" : "Personal Website"
+    } ],
+    "tags" : [ "Mobile", "CLC" ],
+    "title" : "Chapter Lead"
+  }, null, {
+    "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
+    "company" : "Hardline",
+    "country" : "Sudbury, Ontario",
+    "featured" : true,
+    "id" : 3,
+    "name" : "Emily Bamsey",
+    "photoUrl" : "/images/people/embamsey.jpg",
+    "shortBio" : "",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/embamsey",
+      "name" : "Twitter"
+    } ],
+    "tags" : [ "ML" ],
+    "title" : "Developer"
+  }, null, {
+    "bio" : "Advocate in reducing mental health stigma while promoting resiliency. My self-care routine consists of tea, bubble baths, and unicorns.",
+    "company" : "Laurentian University",
+    "country" : "Sudbury, Ontario",
+    "featured" : true,
+    "id" : 5,
+    "name" : "Kelsey Marshman",
+    "photoUrl" : "/images/people/kelsey_marshman.jpg",
+    "shortBio" : "Registered Social Worker.",
+    "tags" : [ "D&I", "Mental Wellness" ],
+    "title" : "Counsellor"
+  } ],
+  "team" : [ {
+    "members" : [ {
+      "name" : "Em Bamsey",
+      "photoUrl" : "/images/people/embamsey.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/embamsey",
+        "name" : "Twitter"
+      } ],
+      "title" : "Organizer"
+    }, {
+      "name" : "David Pellegrini",
+      "photoUrl" : "/images/people/dpellegrini.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/dpells02",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "http://davidpellegrini.ca",
+        "name" : "Personal Website"
+      } ],
+      "title" : "Organizer"
+    }, {
+      "name" : "Dan Scott",
+      "photoUrl" : "/images/people/dan_scott.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/denials",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "https://coffeecode.net/",
+        "name" : "Blog"
+      } ],
+      "title" : "Organizer"
+    } ]
+  } ],
+  "tickets" : {
+    "elements" : [ {
+      "currency" : "$",
+      "ends" : "September 4",
+      "name" : "Free",
+      "price" : 0.0,
+      "soldOut" : false,
+      "starts" : "August 10"
+    } ],
+    "url" : "https://www.meetup.com/GDG-Sudbury/events/260203093"
+  }
+}
