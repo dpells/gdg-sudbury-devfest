@@ -117,10 +117,10 @@
   },
   "speakers" : [ null, {
     "bio" : "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
-    "company" : "Canada Learning Code",
+    "company" : "Cambrian College",
     "country" : "Sudbury, Ontario",
     "featured" : false,
-    "id" : 1,
+    "id" : 0,
     "name" : "David Pellegrini",
     "photoUrl" : "/images/people/dpellegrini.jpg",
     "shortBio" : "Tech enthusiast/ educator",
@@ -133,35 +133,91 @@
       "link" : "http://davidpellegrini.ca",
       "name" : "Personal Website"
     } ],
-    "tags" : [ "Mobile", "CLC" ],
-    "title" : "Chapter Lead"
+    "tags" : [ "Mobile"],
+    "title" : "Part-time Professor"
   }, null, {
-    "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
-    "company" : "Hardline",
-    "country" : "Sudbury, Ontario",
-    "featured" : true,
-    "id" : 3,
-    "name" : "Emily Bamsey",
-    "photoUrl" : "/images/people/embamsey.jpg",
-    "shortBio" : "",
-    "socials" : [ {
-      "icon" : "twitter",
-      "link" : "https://twitter.com/embamsey",
-      "name" : "Twitter"
-    } ],
-    "tags" : [ "ML" ],
-    "title" : "Developer"
-  }, null, {
-    "bio" : "Advocate in reducing mental health stigma while promoting resiliency. My self-care routine consists of tea, bubble baths, and unicorns.",
+    "bio" : "Although the letters beside my name refer to someone who has a masters degree in social work, I like to think that I have a master's in talking. I love talking, listening, and sharing with others. I learn so much from every single person I talk to, and my greatest lessons have been from hearing about others lived experiences. I am also a huge advocate for self-care. My own regime includes baking, jigsaw puzzles, bubble baths,  and  lots of tea drinking! Believe it or not, I am not 80 years old! My goal is to encourage people to reach out for help before the help is needed, reach out early, talk to a friend, make an appointment. Taking care of yourself is not selfish, it's needed. You can't pour from an empty cup!",
     "company" : "Laurentian University",
     "country" : "Sudbury, Ontario",
     "featured" : true,
-    "id" : 5,
+    "id" : 1,
     "name" : "Kelsey Marshman",
     "photoUrl" : "/images/people/kelsey_marshman.jpg",
-    "shortBio" : "Registered Social Worker.",
-    "tags" : [ "D&I", "Mental Wellness" ],
+    "shortBio" : "Passions include reducing mental health stigma, helping others find their own resiliency, and learning from others lived experiences. I am also equally passionate about unicorns, chocolate, and Christmas. ",
+    "tags" : [ "Mental Wellness" ],
     "title" : "Counsellor"
+  }, null, {
+    "bio" : "Ben is a Developer Advocate at Google, where he’s working to help the Web be faster, more beautiful, and easier for users and developers alike.  Prior to Google, he worked at the New York Times and AOL, and before that he was a full-time musician. He earned a BA in Computer Science at Harvard and a PhD in Music at the University of California at Davis. He also played with bands like Cake and wrote two musicals based on the Angelina Ballerina television series. Rumor is that he still runs a band called Ancient Babies.",
+    "company" : "Google",
+    "featured" : true,
+    "id" : 2,
+    "name" : "Ben Morss",
+    "photoUrl" : "/images/people/",
+    "shortBio" : "Ben is a Developer Advocate at Google, where he’s working to help the Web be faster, more beautiful, and easier for users and developers alike.  He earned a BA in Computer Science at Harvard and a PhD in Music at the University of California at Davis.",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/benmorss",
+      "name" : "Twitter"
+    }, {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/ben-morss-15bab15/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "website",
+      "link" : "https://benmorss.com",
+      "name" : "Personal Website"
+    } ],
+    "tags" : [ "Google", "AMP", "Codelab" ],
+    "title" : "Developer Advocate"
+  }, null, {
+    "bio" : "Dan is an associate librarian at Laurentian University, where he works on all things systems. He is also a doctoral student at the School of Information Studies at McGill University, trying to figure out how linked data can best support exploratory search interfaces that help you learn while you search. Dan is passionate about open source, open data, and open access, and loves helping people level up their skills.",
+    "company" : "Laurentian University",
+    "featured" : false,
+    "id" : 3,
+    "name" : "Dan Scott",
+    "photoUrl" : "/images/people/dan_scott.jpg",
+    "shortBio" : "Librarian, student, and geek",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/denials",
+      "name" : "Twitter"
+    },  {
+      "icon" : "website",
+      "link" : "https://dscott.ca/",
+      "name" : "Personal Website"
+    } ],
+    "tags" : [ "Wiki", "Codelab", "Data", "Web" ],
+    "title" : "Associate Librarian"
+  }, null, {
+    "bio" : "My name is Victoria.  I'm an embedded programmer living in Sudbury, ON.  I have a deep love of simple software, born of a deep hatred of software development.  My favourite programming language is C.  The Game Boy is the greatest game console.  When I'm not at work I can usually be found at my apartment playing old video games, watching old TV shows, staring at the ceiling, or being asleep.  Also, I don't like talking about myself.",
+    "company": "Accutron Instruments",
+    "featured" : true,
+    "id" : 4,
+    "name" : "Victoria Lacroix",
+    "photoUrl" : "/images/people/",
+    "shortBio" : "C-loving Linux goblin who refuses to get with the times.",
+    "socials" : [ {
+      "icon" : "website",
+      "link" : "vlacroix.ca",
+      "name" : "Personal Website"
+    } ],
+    "tags" : [ "Ideology" ],
+    "title" : "Embedded Programmer"
+  }, null, {
+    "bio" : "Charles Ramcharan is an Associate Professor at Laurentian University in the School of the Environment. He’s an aquatic biologist and works with the Cooperative Freshwater Ecology Unit, housed in the Vale Living with Lakes Center. His research is about human impacts on freshwater ecosystems. Past and current projects include effects of invasive species, how lakes recover from acidification, the effects of road salt and elevated phosphorus levels, and the pros and cons of using benthic barriers to control the growth of invasive aquatic plants. Dr. Ramcharan sits on several environmental management panels including the City of Sudbury's Watershed Advisory Panel and is an Associate Editor for the Canadian Journal of Fisheries and Aquatic Sciences.",
+    "company" : "Laurentian University",
+    "featured" : false,
+    "id" : 5,
+    "name" : "Charles Ramcharan",
+    "photoUrl" : "/images/people/",
+    "shortBio" : "I'm just your typical Aquatic Biologist in Laurentian's School of the Environment who's long been frustrated with the 1980's tech we're forced to use, and so decided to disrupt all of it..",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/CharlesRamcharan",
+      "name" : "Twitter"
+    } ],
+    "tags" : [ "IoT" ],
+    "title" : "Aquatic Biologist"
   } ],
   "team" : [ {
     "members" : [ {
