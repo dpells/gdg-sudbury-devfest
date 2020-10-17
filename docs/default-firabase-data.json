@@ -75,47 +75,57 @@
       "title" : "Welcome to #DevFest19!"
     } ,
     "101" : {
-      "complexity" : "Keynote",
-      "description" : "A discussion and demonstration of apps and websites available to promote diversity and inclusion, and wellbeing.",
+      "complexity" : "Beginner",
+      "description" : "Learning how to maintain positive mental health while navigating current restrictions. Providing quick and easy exercises that can be done at home to ensure you are maintaining good mental health, positive self-care, and staying connected to others!",
       "id" : 101,
       "language" : "English",
-      "presentation" : "https://google.com",
-      "speakers" : [ 5 ],
-      "tags" : [ "Keynote", "D&I", "Wellbeing" ],
-      "title" : "Diversity, Inclusion, and Wellbeing"
+      "presentation" : "",
+      "speakers" : [ "kelsey_marshman" ],
+      "tags" : [ "D&I", "Wellbeing" ],
+      "title" : "Mental Wellness in a Virtual World"
     },
     "102" : { 
-      "complexity" : "Beginner",
-      "description" : "A quick introduction to Flutter, covering one way of learning what you need to know to get starte",
+      "complexity" : "Intermediate",
+      "description" : "We'll talk about what AMP and why it exists - and then everyone gets to create their first AMP site! We'll use glitch so that we can share our work with one another. This is a compressed version of the AMP beginning course: https://amp.dev/documentation/courses/beginning-course",
       "id" : 102,
       "language" : "English",
-      "presentation" : "https://google.com",
+      "presentation" : "https://amp.dev/documentation/courses/beginning-course",
       "speakers" : [ 1 ],
-      "tags" : [ "Mobile", "Flutter" ],
-      "title" : "Flutter 101"
+      "tags" : [ "Mobile", "AMP", "Codelab" ],
+      "title" : "Making Your First Site with  AMP"
     },
     "103" : { 
-      "complexity" : "Lunch",
-      "description" : "Join us for a complimentary lunch!",
+      "complexity" : "Intermediate",
+      "description" : "In this session, you'll learn how to tap into a source of freely available content for your applications: linked open data from Wikidata and other sources. Integrate textual descriptions, images, and sound to enrich the presentation of people, places, and events. Our hands-on exercise will augment a simple web application using JavaScript code, but the principles are applicable to any programming context with access to the web. Add the Semantic Web into your coding toolbox!",
       "id" : 103,
       "language" : "English",
-      "presentation" : "https://google.com",
-      "speakers" : null,
-      "tags" : [ "Lunch" ],
-      "title" : "Lunch"
+      "presentation" : "",
+      "speakers" : "dan_scott",
+      "tags" : [ "Web", "Data", "Codelab" ],
+      "title" : "Enriching applications with linked open data"
     },
     "105" : {
-      "complexity" : "Intermediate",
-      "description" : "We're creating an open source GDG Sudbury website! Use your Git experience to help us build on the Aura template designed by GDG Jalandhar",
+      "complexity" : "Beginner",
+      "description" : "A talk explaining the philosophy and methodology of low-level, minimalist software development, using a JRPG demo I programmed as an example of what can be achieved using this methodology.",
       "id" : 105,
       "language" : "English",
-      "presentation" : "https://github.com/gdg-x/aura",
-      "speakers" : null,
-      "tags" : [ "Web" ],
-      "title" : "GDG Sudbury Website"
+      "presentation" : "",
+      "speakers" : "victoria_lacroix",
+      "tags" : [ "Dev" ],
+      "title" : "Down the Low-Level Rabbit Hole"
+    },
+    "106" : {
+      "complexity" : "",
+      "description" : "Environmental monitoring and IoT",
+      "id" : 105,
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : "charles_ramcharan",
+      "tags" : [ "IoT", "Lightning" ],
+      "title" : "Environmental sensing arrives in 2020"
     }
   },
-  "speakers" : [ null, {
+  "speakers" : [ "david_pellegrini", {
     "bio" : "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
     "company" : "Cambrian College",
     "country" : "Sudbury, Ontario",
@@ -135,7 +145,7 @@
     } ],
     "tags" : [ "Mobile"],
     "title" : "Part-time Professor"
-  }, null, {
+  }, "kelsey_marshman", {
     "bio" : "Although the letters beside my name refer to someone who has a masters degree in social work, I like to think that I have a master's in talking. I love talking, listening, and sharing with others. I learn so much from every single person I talk to, and my greatest lessons have been from hearing about others lived experiences. I am also a huge advocate for self-care. My own regime includes baking, jigsaw puzzles, bubble baths,  and  lots of tea drinking! Believe it or not, I am not 80 years old! My goal is to encourage people to reach out for help before the help is needed, reach out early, talk to a friend, make an appointment. Taking care of yourself is not selfish, it's needed. You can't pour from an empty cup!",
     "company" : "Laurentian University",
     "country" : "Sudbury, Ontario",
@@ -146,7 +156,7 @@
     "shortBio" : "Passions include reducing mental health stigma, helping others find their own resiliency, and learning from others lived experiences. I am also equally passionate about unicorns, chocolate, and Christmas. ",
     "tags" : [ "Mental Wellness" ],
     "title" : "Counsellor"
-  }, null, {
+  }, "ben_morss", {
     "bio" : "Ben is a Developer Advocate at Google, where he’s working to help the Web be faster, more beautiful, and easier for users and developers alike.  Prior to Google, he worked at the New York Times and AOL, and before that he was a full-time musician. He earned a BA in Computer Science at Harvard and a PhD in Music at the University of California at Davis. He also played with bands like Cake and wrote two musicals based on the Angelina Ballerina television series. Rumor is that he still runs a band called Ancient Babies.",
     "company" : "Google",
     "featured" : true,
@@ -169,7 +179,7 @@
     } ],
     "tags" : [ "Google", "AMP", "Codelab" ],
     "title" : "Developer Advocate"
-  }, null, {
+  }, "dan_scott", {
     "bio" : "Dan is an associate librarian at Laurentian University, where he works on all things systems. He is also a doctoral student at the School of Information Studies at McGill University, trying to figure out how linked data can best support exploratory search interfaces that help you learn while you search. Dan is passionate about open source, open data, and open access, and loves helping people level up their skills.",
     "company" : "Laurentian University",
     "featured" : false,
@@ -188,7 +198,7 @@
     } ],
     "tags" : [ "Wiki", "Codelab", "Data", "Web" ],
     "title" : "Associate Librarian"
-  }, null, {
+  }, "victoria_lacroix", {
     "bio" : "My name is Victoria.  I'm an embedded programmer living in Sudbury, ON.  I have a deep love of simple software, born of a deep hatred of software development.  My favourite programming language is C.  The Game Boy is the greatest game console.  When I'm not at work I can usually be found at my apartment playing old video games, watching old TV shows, staring at the ceiling, or being asleep.  Also, I don't like talking about myself.",
     "company": "Accutron Instruments",
     "featured" : true,
@@ -201,12 +211,12 @@
       "link" : "vlacroix.ca",
       "name" : "Personal Website"
     } ],
-    "tags" : [ "Ideology" ],
+    "tags" : [ "Dev" ],
     "title" : "Embedded Programmer"
-  }, null, {
+  }, "charles_ramcharan", {
     "bio" : "Charles Ramcharan is an Associate Professor at Laurentian University in the School of the Environment. He’s an aquatic biologist and works with the Cooperative Freshwater Ecology Unit, housed in the Vale Living with Lakes Center. His research is about human impacts on freshwater ecosystems. Past and current projects include effects of invasive species, how lakes recover from acidification, the effects of road salt and elevated phosphorus levels, and the pros and cons of using benthic barriers to control the growth of invasive aquatic plants. Dr. Ramcharan sits on several environmental management panels including the City of Sudbury's Watershed Advisory Panel and is an Associate Editor for the Canadian Journal of Fisheries and Aquatic Sciences.",
     "company" : "Laurentian University",
-    "featured" : false,
+    "featured" : true,
     "id" : 5,
     "name" : "Charles Ramcharan",
     "photoUrl" : "/images/people/",
@@ -218,6 +228,25 @@
     } ],
     "tags" : [ "IoT" ],
     "title" : "Aquatic Biologist"
+  }, "", {
+    "bio" : "",
+    "company" : "",
+    "featured" : false,
+    "id" : 6,
+    "name" : "",
+    "photoUrl" : "/images/people/",
+    "shortBio" : "",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/denials",
+      "name" : "Twitter"
+    },  {
+      "icon" : "website",
+      "link" : "",
+      "name" : "Personal Website"
+    } ],
+    "tags" : [ "" ],
+    "title" : ""
   } ],
   "team" : [ {
     "members" : [ {
