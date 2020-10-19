@@ -55,14 +55,16 @@ documentContainer.innerHTML = `<dom-module id="shared-styles">
         /* Tags */
         --general: #9E9E9E;
         --android: #78c257;
-        --iot: #689f38;
+        --IoT: #689f38;
         --web: #2196f3;
         --cloud: #3f51b5;
         --community: #e91e63;
         --design: #E91E63;
         --codelab: #b5b5b5;
         --amp: #005af0;
-        --data: #fde293;
+        --data: #d6ae3a;
+        --devops: #820505;
+        --wellness: #e470a5;
       }
 
       *,
