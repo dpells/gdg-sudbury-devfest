@@ -70,7 +70,7 @@ class PreviousSpeakersBlock extends UtilsFunctions(ReduxMixin(PolymerElement)) {
             ga-event-label$="[[speaker.name]]">
             <plastic-image
               class="photo"
-              srcset="[[speaker.photoUrl]]"
+              srcset="[[speaker.photo]]"
               sizing="cover"
               lazy-load
               preload

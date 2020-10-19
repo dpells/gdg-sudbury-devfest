@@ -199,7 +199,7 @@ class SessionElement extends UtilsFunctions(ReduxMixin(GestureEventListeners(Pol
             <div class="speaker" layout horizontal center>
               <plastic-image
                 class="speaker-photo"
-                srcset="[[speaker.photoUrl]]"
+                srcset="[[speaker.photo]]"
                 sizing="cover"
                 lazy-load
                 preload

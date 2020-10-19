@@ -156,7 +156,7 @@ class PreviousSpeakersPage extends UtilsFunctions(ReduxMixin(PolymerElement)) {
           horizontal>
           <plastic-image
             class="photo"
-            srcset="[[speaker.photoUrl]]"
+            srcset="[[speaker.photo]]"
             sizing="cover"
             lazy-load
             preload

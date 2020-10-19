@@ -38,7 +38,7 @@ class PreviousSpeakerDetails extends UtilsFunctions(ReduxMixin(mixinBehaviors([I
     <polymer-helmet
       title="[[speaker.name]] | {$ title $}"
       description="[[speaker.bio]]"
-      image="[[speaker.photoUrl]]"
+      image="[[speaker.photo]]"
       active="[[opened]]"
       label1="{$ position $}"
       data1="[[speaker.title]], [[speaker.company]]"
@@ -56,7 +56,7 @@ class PreviousSpeakerDetails extends UtilsFunctions(ReduxMixin(mixinBehaviors([I
           <div class="dialog-container header-content" layout horizontal center>
             <plastic-image
               class="photo"
-              srcset="[[speaker.photoUrl]]"
+              srcset="[[speaker.photo]]"
               sizing="cover"
               lazy-load
               preload
