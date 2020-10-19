@@ -100,6 +100,35 @@
     }
   ],
   "schedule": {
+    "2020-11-05": {
+      "date": "2020-11-05",
+      "dateReadable": "November 5",
+      "timeslots": [
+        {
+          "endTime": "18:15",
+          "sessions": [
+            {
+              "items": ["welcome"]
+            }
+          ],
+          "startTime": "18:00"
+        },
+        {
+          "endTime": "18:40",
+          "sessions": [
+            {
+              "items": ["google_keynote"]
+            }
+          ],
+          "startTime": "18:15"
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Zoom"
+        }
+      ]
+    },
     "2020-11-06": {
       "date": "2020-11-06",
       "dateReadable": "November 6",
@@ -143,13 +172,7 @@
       ],
       "tracks": [
         {
-          "title": "Expo hall"
-        },
-        {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
+          "title": "Zoom"
         }
       ]
     },
@@ -250,13 +273,7 @@
       ],
       "tracks": [
         {
-          "title": "Expo hall"
-        },
-        {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
+          "title": "Zoom"
         }
       ]
     }
@@ -268,9 +285,16 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title": "Welcome/ Intro"
     },
+    "google_keynote": {
+      "description": "On October 16-18, thousands of developers from all over the world came together for DevFest 2020, the largest virtual weekend of community-led learning on Google technologies.\n\nFor DevFest this year, a few familiar faces from Google and the community came together to show you how to build an app using multiple Google Developer tools to detect crop diseases, from scratch, in just a few minutes. This is one example of how developers can leverage a number of Google tools to solve a real-world problem. ",
+      "icon": "opening",
+      "presentation": "https://www.youtube.com/watch?v=c2d74a_OaPo",
+      "title": "DevFest 2020 Keynote"
+    },
     "winddown": {
       "description": "Wind down at the end of the day",
       "speakers": ["kelsey_marshman", "david_pellegrini"],
+      "tags": ["Wellness"],
       "title": "Wind down"
     },
     "lunch": {
@@ -297,11 +321,11 @@
     },
     "gitpod": {
       "complexity": "Beginner",
-      "description": "GitPod",
+      "description": "Session: A brief presentation of Gitpod.io – the complete dev environment in your browser tab – followed by a live demo and Q&A",
       "language": "English",
       "speakers": ["jan_keromnes"],
-      "tags": ["Web"],
-      "title": "GitPod"
+      "tags": ["Web", "Cloud", "DevOps"],
+      "title": "Gitpod.io – how to build websites & apps without friction"
     },
     "break": {
       "description": "Stand up, move around, grab some coffee!",
@@ -327,6 +351,7 @@
       "complexity": "Beginner",
       "description": "A talk explaining the philosophy and methodology of low-level, minimalist software development, using a JRPG demo I programmed as an example of what can be achieved using this methodology.",
       "language": "English",
+      "presentation": "https://github.com/VictoriaLacroix/cpong",
       "speakers": ["victoria_lacroix"],
       "tags": ["Philosphy"],
       "title": "Down the Low-Level Rabbit Hole"
@@ -657,7 +682,18 @@
       "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/placeholder.png",
       "pronouns": "she/her",
       "shortBio": "C-loving Linux goblin who refuses to get with the times.",
-      "socials": [],
+      "socials": [
+        {
+          "icon": "website",
+          "link": "https://vlacroix.ca/",
+          "name": "Website"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/VictoriaLacroix",
+          "name": "GitHub"
+        }
+      ],
       "order": 3,
       "title": "Embedded Programmer"
     },
@@ -682,9 +718,9 @@
     },
     "jan_keromnes": {
       "bio": "Jan is the creator of Janitor, and he has been automating development environments for almost a decade. He is passionate about making software development saner, easier, and more accessible for all humans.",
-      "company": "GitPod",
+      "company": "Gitpod, Inc.",
       "featured": true,
-      "name": "Jan Jeromnes",
+      "name": "Jan Keromnes",
       "photo": "/images/people/jan_keromnes.png",
       "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jan_keromnes.png",
       "pronouns": "he/him",
@@ -707,7 +743,7 @@
         }
       ],
       "order": 5,
-      "title": "Software Engineer"
+      "title": " Director of Developer Experience"
     },
     "david_pellegrini": {
       "bio": "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
@@ -819,11 +855,11 @@
       "currency": "$",
       "ends": "Nov 1",
       "info": "Free",
-      "name": "Day 2 - Nov 6",
+      "name": "Day 2 - Nov 7",
       "price": 0,
       "soldOut": false,
       "starts": "Feb 7",
-      "url": ""
+      "url": "https://gdg.community.dev/events/details/google-gdg-sudbury-presents-sudbury-devfest-2020-day-3/#/"
     }
   ],
   "triggers": {
