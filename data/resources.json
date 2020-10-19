@@ -3,7 +3,7 @@
   "description": "GDG Sudbury DevFest brings together local experts in Android, Web and Cloud technologies for a day of sessions, workshops and showcases.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 25-26, 2020",
+  "dates": "November 5-7, 2020",
   "partnershipProposition": "https://drive.google.com/open?id=0BwsxDEszfX_nZ0JVQVNycTl2djQ",
   "share": "Share",
   "followOur": "Join our ",
@@ -159,24 +159,6 @@
     },
     "toast": "We will contact you soon!"
   },
-  "featuredVideos": {
-    "title": "DFUA'16 featured videos",
-    "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
-    }
-  },
-  "blog": {
-    "published": "Published",
-    "suggested": "Up next"
-  },
-  "latestPostsBlock": {
-    "title": "The latest news",
-    "callToAction": {
-      "label": "View all stories",
-      "link": "/blog/"
-    }
-  },
   "speakers": {
     "skills": "Skills",
     "previousYears": "Years",
@@ -187,21 +169,6 @@
     "callToAction": {
       "label": "View all speakers",
       "link": "/speakers/"
-    }
-  },
-  "previousSpeakersBlock": {
-    "title": "Previous speakers",
-    "callToAction": {
-      "label": "View all",
-      "link": "/previous-speakers/"
-    }
-  },
-  "galleryBlock": {
-    "title": "2016 highlights",
-    "description": "Last year's event was small but focused, and built momentum for this year.",
-    "callToAction": {
-      "label": "See all photos",
-      "url": "https://goo.gl/photos/v2kzvDaabpQn6cLF7"
     }
   },
   "mapBlock": {
