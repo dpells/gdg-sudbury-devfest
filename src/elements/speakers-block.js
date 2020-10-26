@@ -163,7 +163,7 @@ class SpeakersBlock extends UtilsFunctions(SpeakersHoC(ReduxMixin(GestureEventLi
             <div relative>
               <plastic-image
                 class="photo"
-                srcset="[[speaker.photoUrl]]"
+                srcset="[[speaker.photo]]"
                 sizing="cover"
                 lazy-load
                 preload

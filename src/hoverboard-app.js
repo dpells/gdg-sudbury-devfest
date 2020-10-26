@@ -167,7 +167,6 @@ class HoverboardApp extends UtilsFunctions(ScrollFunctions(ReduxMixin(PolymerEle
         <app-toolbar layout vertical start>
           <plastic-image class="toolbar-logo" srcset="/images/logo-monochrome.svg" alt="{$ title $}"></plastic-image>
           <h2 class="dates">{$ dates $}</h2>
-          <h3 class="location">{$ location.short $}</h3>
         </app-toolbar>
 
         <div class="drawer-content" layout vertical justified flex>
@@ -218,10 +217,9 @@ class HoverboardApp extends UtilsFunctions(ScrollFunctions(ReduxMixin(PolymerEle
 
         <iron-pages attr-for-selected="name" selected="[[route.route]]" selected-attribute="active" hide-immediately>
           <home-page name="home"></home-page>
-          <blog-page name="blog" route="[[subroute]]"></blog-page>
+
           <schedule-page name="schedule" route="[[subroute]]"></schedule-page>
           <speakers-page name="speakers" route="[[subroute]]"></speakers-page>
-          <previous-speakers-page name="previous-speakers" route="[[subroute]]"></previous-speakers-page>
           <team-page name="team"></team-page>
           <faq-page name="faq"></faq-page>
           <coc-page name="coc"></coc-page>
@@ -230,27 +228,11 @@ class HoverboardApp extends UtilsFunctions(ScrollFunctions(ReduxMixin(PolymerEle
       </app-header-layout>
     </app-drawer-layout>
 
-    <video-dialog
-      opened="[[ui.videoDialog.opened]]"
-      video-title="[[ui.videoDialog.title]]"
-      youtube-id="[[ui.videoDialog.youtubeId]]"
-      entry-animation="scale-up-animation"
-      exit-animation="fade-out-animation"
-      disable-controls="[[!ui.videoDialog.disableControls]]"
-      fit
-      fixed-top></video-dialog>
-
     <speaker-details
       opened="[[dialogs.speaker.isOpened]]"
       speaker="[[dialogs.speaker.data]]"
       with-backdrop="[[viewport.isTabletPlus]]"
       no-cancel-on-outside-click="[[viewport.isPhone]]"></speaker-details>
-
-    <previous-speaker-details
-      opened="[[dialogs.previousSpeaker.isOpened]]"
-      speaker="[[dialogs.previousSpeaker.data]]"
-      with-backdrop="[[viewport.isTabletPlus]]"
-      no-cancel-on-outside-click="[[viewport.isPhone]]"></previous-speaker-details>
 
     <session-details
       opened="[[dialogs.session.isOpened]]"

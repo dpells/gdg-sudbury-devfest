@@ -139,7 +139,7 @@ class TeamPage extends ReduxMixin(PolymerElement) {
         <div class="team-block">
           <template is="dom-repeat" items="[[team.members]]" as="member">
             <div class="member" layout horizontal>
-              <plastic-image class="photo" srcset="[[member.photoUrl]]" sizing="cover" lazy-load preload fade>
+              <plastic-image class="photo" srcset="[[member.photo]]" sizing="cover" lazy-load preload fade>
               </plastic-image>
 
               <div class="member-details" layout vertical center-justified start>

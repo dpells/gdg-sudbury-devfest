@@ -60,7 +60,7 @@ class SpeakerDetails extends UtilsFunctions(SessionsHoC(mixinBehaviors([IronOver
     <polymer-helmet
       title="[[speaker.name]] | {$ title $}"
       description="[[speaker.bio]]"
-      image="[[speaker.photoUrl]]"
+      image="[[speaker.photo]]"
       active="[[opened]]"
       label1="{$ position $}"
       data1="[[speaker.title]], [[speaker.company]]"
@@ -78,7 +78,7 @@ class SpeakerDetails extends UtilsFunctions(SessionsHoC(mixinBehaviors([IronOver
           <div class="dialog-container header-content" layout horizontal center>
             <plastic-image
               class="photo"
-              srcset="[[speaker.photoUrl]]"
+              srcset="[[speaker.photo]]"
               sizing="cover"
               lazy-load
               preload
